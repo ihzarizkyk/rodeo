@@ -1,12 +1,9 @@
-# Rodeo App
-from flask import (Flask, render_template)
-
+from flask import Flask, render_template, redirect, url_for, request
 app = Flask(__name__)
 
-@app.route("/")
-def index:
+@app.route('/')
+def hello():
 	return render_template("index.html")
 
-@app.route("/about")
-def about:
-	return "about page"
+if __name__ == '__main__':
+	app.run(debug=True)
