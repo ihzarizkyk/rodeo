@@ -1,9 +1,12 @@
 # Rodeo App
-
-from flask import (Flask, render_template, url_for, abort)
+from flask import (Flask, render_template)
 
 app = Flask(__name__)
 
 @app.route("/")
 def index:
-	return "testing flask app"
+	return render_template("index.html")
+
+@app.route("/about")
+def about:
+	return "about page"
