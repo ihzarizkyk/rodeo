@@ -1,23 +1,124 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Mining | Traffic Accident Severity Prediction</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/bootstrap.css') }}"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
 
-{% block head %}
-<h1>Main Page - Rodeo APP</h1>
-{% endblock head %}
+      body {
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
 
+      .form-data-mining {
+        max-width: 720px;
+        width: 100%;
+        padding: 30px 40px;
+        border: 1px solid black;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-data-mining mx-auto">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, i in messages %}
+                    <div class="alert alert-{{category}} alert-dismissible fade show" role="alert" >
+                        {{i}}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+      {% endwith %}
+      <form action="#" method="post">
+        <div class="mb-3">
+          <label for="age" class="form-label">Age</label>
+          <select
+            name="age"
+            id="age"
+            class="form-select"
+            aria-label="select-age"
+            required
+          >
+            <option selected disabled>Choose Driver Age</option>
+            <option value="1">18-30</option>
+            <option value="2">31-50</option>
+            <option value="3">Over 51</option>
+            <option value="4">Under 18</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="gender" class="form-label">Gender</label>
+          <select
+            name="gender"
+            id="gender"
+            class="form-select"
+            aria-label="select-gender"
+            required
+          >
+            <option selected disabled>Choose Driver Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="experience" class="form-label">Experience</label>
+          <select
+            id="experience"
+            class="form-select"
+            aria-label="select-experience"
+            name="driverexp"
+            required
+          >
+            <option selected disabled>Choose Driver Experience</option>
+            <option value="1">1-2yr</option>
+            <option value="2">2-5yr</option>
+            <option value="3">5-10yr</option>
+            <option value="4">Above 10yr</option>
+            <option value="5">Below 1yr</option>
+            <option value="6">No License</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="weather" class="form-label">weather</label>
+          <select
+            id="weather"
+            name="weather"
+            class="form-select"
+            aria-label="select-weather"
+            required
+          >
+            <option selected disabled>Choose Weather Condition</option>
+            <option value="1">Cloudy</option>
+            <option value="2">Fog or mist</option>
+            <option value="3">Normal</option>
+            <option value="4">Other</option>
+            <option value="5">Raining</option>
+            <option value="6">Raining and Windy</option>
+            <option value="7">Snow</option>
+            <option value="8">Windy</option>
+          </select>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
 
-{% block body %}
-
-<form action="#">
-	<label for="number">
-		Number:
-	</label>
-	<input type="text" name="number">
-	<br>
-	<input type="submit" value="proccess" name="proccess">
-</form>
-
-<br>
-
-<a href="https://github.com/ihzarizkyk/rodeo" target="_blank">Rodeo Repo >></a>
-
-{% endblock body %}
+    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+  </body>
+</html>

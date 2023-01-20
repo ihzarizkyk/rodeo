@@ -1,0 +1,10 @@
+age ("18-30", "31-50", "Over 51", "Under 18")
+
+gender ("Male", "Female")
+
+experience ("1-2yr", "2-5yr", "5-10yr", "Above 10yr", "Below 1yr", "No License")
+
+weather ("Cloudy", "Fog or mist", "Normal", "Other", "Raining", "Raining and Windy", "Snow", "Windy")
+
+
+[["18-30", "31-50", "Over 51", "Under 18", "Male", "Female", "1-2yr", "2-5yr", "5-10yr", "Above 10yr", "Below 1yr", "No License", "Cloudy", "Fog or mist", "Normal", "Other", "Raining", "Raining and Windy", "Snow", "Windy"]]
