@@ -2,7 +2,6 @@
 
 Dataset from [Kaggle - Road Traffic Accident Dataset of Addis Ababa City](https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents)
 
-
 ## How To run this project
 
 1. open directory project on terminal
@@ -19,5 +18,20 @@ Dataset from [Kaggle - Road Traffic Accident Dataset of Addis Ababa City](https:
 
 **Run Flask:** 
 `flask run`
+
+## Files in repo
+
+`traffic_model.ipynb` is the Implementation of Decision Tree Classification Model. Run ini jika ingin tahu proses tiap baris kode
+
+`traffic_model.py` is the Implementation of joblib model. Run file ini untuk generate model
+
+`app.py` is the Flask Implementation of the Model. main file untuk menjalankan flask website
+
+`traffic.py` helper class.
+
+`templates/index.html` contains the front end for the Web Application.
+
+`static` contains bootstrap assets for website
+
 
 *This is repo deployed with vercel host*
