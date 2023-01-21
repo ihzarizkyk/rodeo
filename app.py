@@ -14,13 +14,12 @@ def hello():
         driverexp = request.form["driverexp"]
         weather = request.form["weather"]
         
-        
-        y_pred = Traffic.arrayAtribute(age, gender, driverexp, weather)
+        y_pred = Traffic.severityArray(age, gender, driverexp, weather)
         
         severityPrediction = model.predict(y_pred)
         
         if severityPrediction == 1:
-            flash("Slighty Injury", "success")
+            flash("slightly Injury", "success")
         elif severityPrediction == 2:
             flash("Serious Injury", "warning")
         elif severityPrediction == 3:
@@ -32,10 +31,16 @@ def hello():
 
 @app.route('/tes')
 def method_name():
-    return str(Traffic.arrayAtribute("1","1","1","1"))
+    return str(Traffic.severityArray("1","1","1","1"))
 
 @app.route('/load')
 def loadmodel():
+    """tes model secara langsung
+
+    Returns:
+        string: severity level, 1 = slightly injury, 2 = serious injury, 3 = fatal injury
+    """
+    
     # input: under 18, female, no license, raining and windy
     return str(model.predict([[
             0, 0, 0, 1,

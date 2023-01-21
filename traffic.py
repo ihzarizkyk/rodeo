@@ -1,5 +1,15 @@
 class Traffic:
     def ageArray(age):
+        """create an array for driver age
+        ["18-30",  "31-50", "Over 51", "Under 18"]
+        
+        Args:
+            age (string): "1" to "4"
+
+        Returns:
+            array: 1D array represent age value
+        """
+        
         ageEighteenToThirty = 0
         ageThirtyOneToFifty= 0
         ageOverFifthyOne = 0
@@ -17,6 +27,16 @@ class Traffic:
         return [ageEighteenToThirty, ageThirtyOneToFifty, ageOverFifthyOne, ageUnderEighteen]
 
     def genderArray(gender):
+        """create an array for driver gender
+        ["male", "female"]
+
+        Args:
+            gender (string): "1" for male otherwise female
+
+        Returns:
+            array: 1D array represent gender value
+        """
+        
         male = 0
         female = 0
         if (gender == "1"):
@@ -27,6 +47,16 @@ class Traffic:
         return [male, female]
     
     def driverExpArray(driverexp):
+        """create an array for driver experience,
+        ["1-2yr", "2-5yr", "5-10yr", "Above 10yr", "Below 1yr","No License"]
+
+        Args:
+            driverexp (string): "1" to "6"
+
+        Returns:
+            array: 1D array represent driver experience
+        """
+        
         driverExpOneToTwoYear = 0
         driverExpTwoToFiveYear = 0
         driverExpFiveToTenYear = 0
@@ -49,6 +79,16 @@ class Traffic:
         return [driverExpOneToTwoYear, driverExpTwoToFiveYear, driverExpFiveToTenYear, driverExpAboveTenYear,driverExpBelowOneYear, driverExpNoLicense]
         
     def weatherArray(weather):
+        """create an array for weather condition
+        ["Cloudy", "Fog or mist", "Normal", "Other", "Raining", "Raining and Windy", "Snow", "Windy"]
+        
+        Args:
+            weather (string): "1" to "8"
+
+        Returns:
+            array: 1D array represent weather condition
+        """
+        
         weatherCloudy = 0
         weatherForOrMist = 0
         weatherNormal = 0
@@ -76,7 +116,6 @@ class Traffic:
         
         return [weatherCloudy, weatherForOrMist, weatherNormal, weatherOther, weatherRaining, weatherRainingAndWindy, weatherSnow, weatherWindy]
     
-    # get value from input and return 2d array for model prediction
     # array structure for model prediction
     # [[
     # ---- age ----
@@ -88,7 +127,19 @@ class Traffic:
     # ----- weather -----
     #   "Cloudy", "Fog or mist", "Normal", "Other", "Raining", "Raining and Windy", "Snow", "Windy"
     # ]]
-    def arrayAtribute(age, gender, driverexp, weather):
+    def severityArray(age, gender, driverexp, weather):
+        """create an array for the DecisionTreeClassifier.predict models
+
+        Args:
+            age (string): Age value "1" to "4"
+            gender (string): Gender value "1" for male otherwise female
+            driverexp (string): Driver Experience, value "1" to "6"
+            weather (string): Weather condition, value "1" to "8"
+
+        Returns:
+            array: 2D array for DecisionTreeClassifier model
+        """
+        
         ageVal = Traffic.ageArray(age)
         genderVal = Traffic.genderArray(gender)
         driverExpVal = Traffic.driverExpArray(driverexp)
