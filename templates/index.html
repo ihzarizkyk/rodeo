@@ -26,7 +26,7 @@
       .form-data-mining {
         max-width: 720px;
         width: 100%;
-        padding: 30px 40px;
+        padding: 25px 30px 10px 30px;
         border: 1px solid black;
         border-radius: 10px;
       }
@@ -34,6 +34,10 @@
   </head>
   <body>
     <div class="form-data-mining mx-auto">
+      <div>
+        <h2>Road Traffic Accident Severity Prediction</h2>
+        <hr>
+      </div>
       {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, i in messages %}
@@ -54,7 +58,7 @@
             aria-label="select-age"
             required
           >
-            <option selected disabled>Choose Driver Age</option>
+            <option value="0" selected>Choose Driver Age</option>
             <option value="1">18-30</option>
             <option value="2">31-50</option>
             <option value="3">Over 51</option>
@@ -70,13 +74,13 @@
             aria-label="select-gender"
             required
           >
-            <option selected disabled>Choose Driver Gender</option>
+            <option value="0" selected>Choose Driver Gender</option>
             <option value="1">Male</option>
             <option value="2">Female</option>
           </select>
         </div>
         <div class="mb-3">
-          <label for="experience" class="form-label">Experience</label>
+          <label for="experience" class="form-label">Driver Experience</label>
           <select
             id="experience"
             class="form-select"
@@ -84,7 +88,7 @@
             name="driverexp"
             required
           >
-            <option selected disabled>Choose Driver Experience</option>
+            <option value="0" selected>Choose Driver Experience</option>
             <option value="1">1-2yr</option>
             <option value="2">2-5yr</option>
             <option value="3">5-10yr</option>
@@ -94,7 +98,7 @@
           </select>
         </div>
         <div class="mb-3">
-          <label for="weather" class="form-label">weather</label>
+          <label for="weather" class="form-label">Weather Condition</label>
           <select
             id="weather"
             name="weather"
@@ -102,7 +106,7 @@
             aria-label="select-weather"
             required
           >
-            <option selected disabled>Choose Weather Condition</option>
+            <option value="0" selected>Choose Weather Condition</option>
             <option value="1">Cloudy</option>
             <option value="2">Fog or mist</option>
             <option value="3">Normal</option>
@@ -113,10 +117,14 @@
             <option value="8">Windy</option>
           </select>
         </div>
-        <div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
         </div>
       </form>
+
+      <div>
+        <p class="text-center">Visit <a href="https://github.com/ihzarizkyk/rodeo" target="_blank">Rodeo Repo</a> for more information</p>
+      </div>
     </div>
 
     <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
