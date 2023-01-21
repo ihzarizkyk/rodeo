@@ -1,10 +1,10 @@
 from flask import Flask, render_template, url_for, request, flash
 from joblib import load
-from traffic import Traffic
+from helper.traffic import Traffic
 
 app = Flask(__name__)
 
-model = load('model_traffic.joblib')
+model = load("model/model_traffic.joblib")
 
 @app.route('/', methods=['GET', 'POST'])
 def hello():
