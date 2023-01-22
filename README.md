@@ -9,6 +9,14 @@ Dataset from [Kaggle - Road Traffic Accident Dataset of Addis Ababa City](https:
 3. then run `python app.py` to start flask
 4. open http://127.0.0.1:5000 on your browser
 
+**if you using python3 :**
+
+1. run `pip3 install -r requirements.txt` to install package
+
+**if you got error :**
+
+1. run `pip3 instal-r requirements.txt --ignore-installed`
+
 ## How to Run Flask App
 
 `export FLASK_APP=name`
