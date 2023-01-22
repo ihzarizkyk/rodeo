@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('dataset_traffic.csv', sep=";")
+data = pd.read_csv('ready_dataset_traffic_accident.csv', sep=";")
 
 # menggunakan library OneHot Encoder untuk melakukan encoding data
 # encoding data adalah mengubah data seperti male atau female ke bilangan
@@ -20,10 +20,10 @@ X = data[["18-30", "31-50", "Over 51", "Under 18", "Male", "Female", "1-2yr", "2
 y = data[["severity"]]
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 from sklearn.tree import DecisionTreeClassifier
-model = DecisionTreeClassifier()
+model = DecisionTreeClassifier(class_weight="balanced")
 
 model.fit(X_train, y_train)
 
