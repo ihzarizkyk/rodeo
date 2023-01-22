@@ -1,4 +1,4 @@
-age;gender;driving_exp;weather;severity
+﻿age;gender;driving_exp;weather;severity
 18-30;Male;1-2yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 18-30;Male;1-2yr;Normal;2
@@ -72,8 +72,8 @@ Over 51;Male;2-5yr;Normal;1
 Over 51;Male;1-2yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 18-30;Male;2-5yr;Normal;2
-31-50;Male;5-10yr;Normal;2
-31-50;Male;Above 10yr;Normal;2
+31-50;Male;5-10yr;Normal;3
+31-50;Male;Above 10yr;Normal;3
 18-30;Male;2-5yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 Over 51;Male;1-2yr;Normal;1
@@ -350,7 +350,7 @@ Over 51;Male;1-2yr;Normal;1
 Over 51;Male;1-2yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;1-2yr;Normal;1
-Over 51;Male;Above 10yr;Raining;2
+Over 51;Male;Above 10yr;Raining;3
 18-30;Male;1-2yr;Normal;2
 18-30;Male;1-2yr;Normal;2
 Under 18;Male;2-5yr;Normal;2
@@ -409,8 +409,8 @@ Over 51;Male;2-5yr;Normal;1
 Over 51;Male;Above 10yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-31-50;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+31-50;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 31-50;Male;Below 1yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 31-50;Male;Above 10yr;Normal;2
@@ -428,8 +428,8 @@ Under 18;Male;5-10yr;Normal;2
 Under 18;Male;2-5yr;Normal;2
 Under 18;Male;5-10yr;Raining;2
 Under 18;Male;2-5yr;Raining;2
-31-50;Male;2-5yr;Normal;2
-31-50;Male;2-5yr;Normal;2
+31-50;Male;2-5yr;Normal;3
+31-50;Male;2-5yr;Normal;3
 Under 18;Male;5-10yr;Normal;1
 Over 51;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;2
@@ -501,10 +501,10 @@ Under 18;Male;5-10yr;Normal;2
 18-30;Male;Above 10yr;Cloudy;1
 18-30;Male;Above 10yr;Raining;1
 Over 51;Male;Above 10yr;Raining;1
-31-50;Male;Above 10yr;Normal;2
-31-50;Male;Above 10yr;Normal;2
-18-30;Male;5-10yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+31-50;Male;Above 10yr;Normal;3
+31-50;Male;Above 10yr;Normal;3
+18-30;Male;5-10yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 18-30;Male;Below 1yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
@@ -517,8 +517,8 @@ Over 51;Male;Below 1yr;Normal;1
 Over 51;Male;Below 1yr;Normal;2
 Over 51;Male;2-5yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
-18-30;Male;Above 10yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+18-30;Male;Above 10yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 Under 18;Male;2-5yr;Normal;2
 18-30;Male;1-2yr;Normal;2
 31-50;Male;5-10yr;Normal;2
@@ -682,7 +682,7 @@ Over 51;Male;1-2yr;Other;1
 Over 51;Male;5-10yr;Other;1
 Over 51;Male;5-10yr;Windy;1
 31-50;Male;5-10yr;Windy;1
-Over 51;Male;Above 10yr;Normal;2
+Over 51;Male;Above 10yr;Normal;3
 Over 51;Male;5-10yr;Raining;2
 Under 18;Male;No Licence;Raining;2
 18-30;Male;5-10yr;Normal;1
@@ -731,9 +731,9 @@ Over 51;Male;5-10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-Under 18;Male;5-10yr;Normal;2
-Under 18;Male;Below 1yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+Under 18;Male;5-10yr;Normal;3
+Under 18;Male;Below 1yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 Over 51;Male;2-5yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;2-5yr;Normal;1
@@ -841,8 +841,8 @@ Under 18;Male;Above 10yr;Normal;1
 18-30;Male;Below 1yr;Normal;2
 31-50;Male;2-5yr;Normal;1
 Under 18;Male;Above 10yr;Normal;1
-18-30;Male;5-10yr;Normal;2
-18-30;Male;1-2yr;Normal;2
+18-30;Male;5-10yr;Normal;3
+18-30;Male;1-2yr;Normal;3
 18-30;Male;Below 1yr;Normal;2
 31-50;Male;Below 1yr;Normal;2
 Over 51;Male;2-5yr;Normal;1
@@ -982,7 +982,7 @@ Over 51;Male;5-10yr;Normal;1
 Under 18;Male;1-2yr;Normal;1
 Over 51;Male;Below 1yr;Normal;1
 18-30;Male;1-2yr;Normal;1
-31-50;Male;1-2yr;Normal;2
+31-50;Male;1-2yr;Normal;3
 31-50;Male;Above 10yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
@@ -1014,7 +1014,7 @@ Under 18;Male;5-10yr;Normal;1
 31-50;Male;1-2yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;2-5yr;Normal;1
-31-50;Male;5-10yr;Normal;2
+31-50;Male;5-10yr;Normal;3
 31-50;Male;1-2yr;Normal;2
 18-30;Male;5-10yr;Normal;2
 18-30;Male;5-10yr;Normal;1
@@ -2248,7 +2248,7 @@ Over 51;Male;5-10yr;Normal;1
 18-30;Male;Below 1yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-18-30;Male;1-2yr;Normal;2
+18-30;Male;1-2yr;Normal;3
 18-30;Male;5-10yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 Under 18;Male;5-10yr;Normal;1
@@ -2853,7 +2853,7 @@ Over 51;Male;Below 1yr;Normal;2
 18-30;Male;5-10yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Raining;1
-18-30;Male;Above 10yr;Normal;2
+18-30;Male;Above 10yr;Normal;3
 31-50;Male;5-10yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 31-50;Male;5-10yr;Other;1
@@ -3039,7 +3039,7 @@ Over 51;Male;Below 1yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
-31-50;Male;2-5yr;Normal;2
+31-50;Male;2-5yr;Normal;3
 31-50;Male;2-5yr;Other;1
 Over 51;Male;Above 10yr;Raining;1
 31-50;Male;5-10yr;Normal;1
@@ -3161,10 +3161,10 @@ Under 18;Male;5-10yr;Normal;1
 18-30;Male;Below 1yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;1-2yr;Normal;2
-18-30;Male;1-2yr;Normal;2
-31-50;Male;5-10yr;Normal;2
-31-50;Male;1-2yr;Normal;2
-31-50;Male;5-10yr;Normal;2
+18-30;Male;1-2yr;Normal;3
+31-50;Male;5-10yr;Normal;3
+31-50;Male;1-2yr;Normal;3
+31-50;Male;5-10yr;Normal;3
 Under 18;Male;2-5yr;Normal;2
 18-30;Male;2-5yr;Normal;1
 Over 51;Male;5-10yr;Normal;1
@@ -3266,8 +3266,8 @@ Under 18;Male;1-2yr;Raining;1
 31-50;Male;2-5yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;Below 1yr;Normal;1
-Over 51;Male;2-5yr;Normal;2
-31-50;Male;Above 10yr;Normal;2
+Over 51;Male;2-5yr;Normal;3
+31-50;Male;Above 10yr;Normal;3
 Over 51;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 31-50;Male;1-2yr;Raining;1
@@ -3310,8 +3310,8 @@ Over 51;Male;1-2yr;Raining;2
 31-50;Male;Above 10yr;Normal;2
 18-30;Male;5-10yr;Normal;1
 18-30;Male;2-5yr;Normal;1
-18-30;Male;5-10yr;Normal;2
-18-30;Male;1-2yr;Normal;2
+18-30;Male;5-10yr;Normal;3
+18-30;Male;1-2yr;Normal;3
 31-50;Male;5-10yr;Normal;1
 18-30;Male;5-10yr;Normal;2
 31-50;Male;Above 10yr;Normal;2
@@ -3546,8 +3546,8 @@ Over 51;Male;5-10yr;Raining;1
 18-30;Male;5-10yr;Normal;2
 18-30;Male;1-2yr;Normal;2
 18-30;Male;1-2yr;Normal;1
-Under 18;Male;1-2yr;Normal;2
-18-30;Male;5-10yr;Normal;2
+Under 18;Male;1-2yr;Normal;3
+18-30;Male;5-10yr;Normal;3
 18-30;Male;5-10yr;Raining;1
 31-50;Male;5-10yr;Raining;1
 18-30;Male;Below 1yr;Normal;1
@@ -3648,9 +3648,9 @@ Under 18;Male;Above 10yr;Normal;2
 Under 18;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;Below 1yr;Normal;1
-18-30;Male;2-5yr;Normal;2
-31-50;Male;5-10yr;Normal;2
-31-50;Male;Below 1yr;Normal;2
+18-30;Male;2-5yr;Normal;3
+31-50;Male;5-10yr;Normal;3
+31-50;Male;Below 1yr;Normal;3
 18-30;Male;Above 10yr;Raining;1
 Over 51;Male;Below 1yr;Raining;1
 18-30;Male;5-10yr;Raining;1
@@ -3807,8 +3807,8 @@ Over 51;Male;2-5yr;Normal;2
 31-50;Male;5-10yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;5-10yr;Normal;1
-31-50;Male;Above 10yr;Normal;2
-31-50;Male;2-5yr;Normal;2
+31-50;Male;Above 10yr;Normal;3
+31-50;Male;2-5yr;Normal;3
 Under 18;Male;1-2yr;Raining;1
 Over 51;Male;5-10yr;Raining;1
 31-50;Male;2-5yr;Raining;1
@@ -3968,12 +3968,12 @@ Under 18;Male;2-5yr;Raining;1
 18-30;Male;2-5yr;Other;1
 18-30;Male;2-5yr;Normal;1
 31-50;Male;2-5yr;Normal;2
-Under 18;Male;2-5yr;Normal;2
+Under 18;Male;2-5yr;Normal;3
 18-30;Male;2-5yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
-31-50;Male;Above 10yr;Raining;2
+31-50;Male;Above 10yr;Raining;3
 18-30;Male;2-5yr;Normal;1
 31-50;Male;1-2yr;Raining;1
 18-30;Male;5-10yr;Normal;1
@@ -4107,12 +4107,12 @@ Over 51;Male;5-10yr;Normal;1
 Under 18;Male;1-2yr;Raining;1
 31-50;Male;No Licence;Normal;1
 31-50;Male;Above 10yr;Normal;1
-31-50;Male;Above 10yr;Raining;2
-31-50;Male;5-10yr;Raining;2
-Over 51;Male;2-5yr;Raining;2
+31-50;Male;Above 10yr;Raining;3
+31-50;Male;5-10yr;Raining;3
+Over 51;Male;2-5yr;Raining;3
 31-50;Male;Above 10yr;Other;2
-Over 51;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+Over 51;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 Over 51;Male;Above 10yr;Cloudy;1
 Under 18;Male;Below 1yr;Normal;1
 18-30;Male;Below 1yr;Normal;1
@@ -4343,7 +4343,7 @@ Over 51;Male;5-10yr;Normal;1
 31-50;Male;Above 10yr;Normal;2
 Over 51;Male;Above 10yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
-18-30;Male;2-5yr;Normal;2
+18-30;Male;2-5yr;Normal;3
 18-30;Male;2-5yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
 Over 51;Male;Below 1yr;Normal;1
@@ -4407,11 +4407,11 @@ Over 51;Male;1-2yr;Normal;1
 31-50;Male;2-5yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-18-30;Male;5-10yr;Normal;2
-18-30;Male;Below 1yr;Normal;2
-18-30;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+18-30;Male;5-10yr;Normal;3
+18-30;Male;Below 1yr;Normal;3
+18-30;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 Under 18;Male;2-5yr;Normal;1
 Under 18;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;2
@@ -4439,8 +4439,8 @@ Under 18;Male;Below 1yr;Cloudy;1
 18-30;Male;Below 1yr;Normal;1
 31-50;Male;2-5yr;Normal;1
 31-50;Male;2-5yr;Normal;1
-Over 51;Male;Above 10yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+Over 51;Male;Above 10yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 Under 18;Male;2-5yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 18-30;Male;5-10yr;Normal;2
@@ -5014,7 +5014,7 @@ Over 51;Male;2-5yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
-31-50;Male;Above 10yr;Normal;2
+31-50;Male;Above 10yr;Normal;3
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
@@ -5052,7 +5052,7 @@ Under 18;Male;2-5yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;Above 10yr;Normal;2
 31-50;Male;Below 1yr;Normal;2
-18-30;Male;5-10yr;Normal;2
+18-30;Male;5-10yr;Normal;3
 Under 18;Male;2-5yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
@@ -5227,9 +5227,9 @@ Under 18;Male;2-5yr;Normal;1
 31-50;Male;1-2yr;Normal;1
 Over 51;Male;5-10yr;Normal;1
 Under 18;Male;Below 1yr;Normal;1
-Over 51;Male;Above 10yr;Normal;2
-Over 51;Male;5-10yr;Normal;2
-Over 51;Male;Below 1yr;Normal;2
+Over 51;Male;Above 10yr;Normal;3
+Over 51;Male;5-10yr;Normal;3
+Over 51;Male;Below 1yr;Normal;3
 31-50;Male;5-10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
@@ -5241,9 +5241,9 @@ Under 18;Male;5-10yr;Normal;1
 18-30;Male;1-2yr;Normal;2
 Under 18;Male;5-10yr;Normal;1
 18-30;Male;2-5yr;Normal;1
-18-30;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
-Under 18;Male;Above 10yr;Normal;2
+18-30;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
+Under 18;Male;Above 10yr;Normal;3
 31-50;Male;1-2yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 31-50;Male;1-2yr;Normal;1
@@ -5381,10 +5381,10 @@ Over 51;Male;2-5yr;Raining;2
 18-30;Male;5-10yr;Normal;2
 31-50;Male;2-5yr;Normal;2
 31-50;Male;5-10yr;Normal;2
-18-30;Male;5-10yr;Normal;2
-18-30;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+18-30;Male;5-10yr;Normal;3
+18-30;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 18-30;Male;5-10yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 18-30;Male;1-2yr;Raining;1
@@ -5560,7 +5560,7 @@ Over 51;Male;Above 10yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 31-50;Male;2-5yr;Normal;1
-18-30;Male;1-2yr;Normal;2
+18-30;Male;1-2yr;Normal;3
 31-50;Male;1-2yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
@@ -6014,7 +6014,7 @@ Under 18;Male;Below 1yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
 18-30;Male;Below 1yr;Normal;1
 Over 51;Male;1-2yr;Normal;1
-Under 18;Male;Above 10yr;Normal;2
+Under 18;Male;Above 10yr;Normal;3
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
@@ -6216,8 +6216,8 @@ Under 18;Male;5-10yr;Normal;2
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;1-2yr;Normal;1
 Under 18;Male;2-5yr;Normal;2
-Over 51;Male;Above 10yr;Normal;2
-31-50;Male;2-5yr;Normal;2
+Over 51;Male;Above 10yr;Normal;3
+31-50;Male;2-5yr;Normal;3
 31-50;Male;5-10yr;Cloudy;1
 31-50;Male;2-5yr;Normal;2
 Over 51;Male;1-2yr;Normal;1
@@ -6307,7 +6307,7 @@ Over 51;Male;Below 1yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 18-30;Male;2-5yr;Normal;2
-Under 18;Male;1-2yr;Normal;2
+Under 18;Male;1-2yr;Normal;3
 18-30;Male;1-2yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;1-2yr;Normal;1
@@ -6598,7 +6598,7 @@ Under 18;Male;2-5yr;Normal;1
 18-30;Male;5-10yr;Raining;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
-Over 51;Male;Above 10yr;Normal;2
+Over 51;Male;Above 10yr;Normal;3
 31-50;Male;Above 10yr;Raining;1
 31-50;Male;Above 10yr;Raining;1
 31-50;Male;Above 10yr;Raining;1
@@ -6686,8 +6686,8 @@ Under 18;Male;Above 10yr;Normal;1
 Over 51;Male;5-10yr;Normal;2
 18-30;Male;2-5yr;Normal;1
 18-30;Male;2-5yr;Normal;1
-31-50;Male;5-10yr;Normal;2
-Over 51;Male;5-10yr;Normal;2
+31-50;Male;5-10yr;Normal;3
+Over 51;Male;5-10yr;Normal;3
 31-50;Male;2-5yr;Raining;1
 31-50;Male;Above 10yr;Raining;1
 18-30;Male;Above 10yr;Raining;1
@@ -6831,15 +6831,15 @@ Under 18;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;2
 Over 51;Male;5-10yr;Normal;1
 Over 51;Male;Above 10yr;Normal;1
-18-30;Male;1-2yr;Normal;2
+18-30;Male;1-2yr;Normal;3
 18-30;Male;2-5yr;Normal;1
 31-50;Male;1-2yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 18-30;Male;5-10yr;Normal;1
-18-30;Male;Above 10yr;Raining;2
-18-30;Male;2-5yr;Raining;2
-18-30;Male;Above 10yr;Raining;2
-18-30;Male;2-5yr;Raining;2
+18-30;Male;Above 10yr;Raining;3
+18-30;Male;2-5yr;Raining;3
+18-30;Male;Above 10yr;Raining;3
+18-30;Male;2-5yr;Raining;3
 31-50;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
@@ -7012,7 +7012,7 @@ Under 18;Male;2-5yr;Normal;1
 Over 51;Male;1-2yr;Normal;1
 31-50;Male;1-2yr;Windy;1
 Under 18;Male;2-5yr;Raining;1
-31-50;Male;2-5yr;Normal;2
+31-50;Male;2-5yr;Normal;3
 18-30;Male;1-2yr;Raining;1
 18-30;Male;5-10yr;Raining;1
 18-30;Male;Below 1yr;Other;1
@@ -7036,10 +7036,10 @@ Over 51;Male;5-10yr;Normal;1
 18-30;Male;Below 1yr;Normal;1
 Over 51;Male;5-10yr;Normal;2
 Over 51;Male;1-2yr;Normal;2
-Over 51;Male;5-10yr;Normal;2
-Over 51;Male;5-10yr;Normal;2
-31-50;Male;2-5yr;Normal;2
-18-30;Male;5-10yr;Normal;2
+Over 51;Male;5-10yr;Normal;3
+Over 51;Male;5-10yr;Normal;3
+31-50;Male;2-5yr;Normal;3
+18-30;Male;5-10yr;Normal;3
 18-30;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Normal;2
 31-50;Male;Below 1yr;Normal;1
@@ -7058,9 +7058,9 @@ Under 18;Male;1-2yr;Normal;1
 Over 51;Male;5-10yr;Other;1
 31-50;Male;Below 1yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
-18-30;Male;Below 1yr;Normal;2
-18-30;Male;2-5yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+18-30;Male;Below 1yr;Normal;3
+18-30;Male;2-5yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 18-30;Male;5-10yr;Raining;1
 31-50;Male;5-10yr;Raining;1
 31-50;Male;5-10yr;Normal;1
@@ -7293,7 +7293,7 @@ Over 51;Male;1-2yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
 Over 51;Male;5-10yr;Normal;2
 Over 51;Male;Above 10yr;Normal;2
-31-50;Male;5-10yr;Normal;2
+31-50;Male;5-10yr;Normal;3
 31-50;Male;2-5yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 18-30;Male;2-5yr;Normal;1
@@ -7378,8 +7378,8 @@ Over 51;Male;5-10yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
 18-30;Male;Above 10yr;Normal;2
-31-50;Male;1-2yr;Normal;2
-31-50;Male;5-10yr;Normal;2
+31-50;Male;1-2yr;Normal;3
+31-50;Male;5-10yr;Normal;3
 18-30;Male;1-2yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 Over 51;Male;Below 1yr;Normal;1
@@ -7682,7 +7682,7 @@ Over 51;Male;5-10yr;Normal;1
 Over 51;Male;1-2yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
-Over 51;Male;1-2yr;Raining;2
+Over 51;Male;1-2yr;Raining;3
 18-30;Male;2-5yr;Normal;2
 Under 18;Male;2-5yr;Normal;2
 Under 18;Male;1-2yr;Normal;2
@@ -7740,7 +7740,7 @@ Over 51;Male;5-10yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 Over 51;Male;Below 1yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
-31-50;Male;Below 1yr;Normal;2
+31-50;Male;Below 1yr;Normal;3
 31-50;Male;2-5yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 31-50;Male;Above 10yr;Normal;2
@@ -7759,8 +7759,8 @@ Under 18;Male;5-10yr;Normal;2
 Under 18;Male;5-10yr;Raining;2
 Under 18;Male;Above 10yr;Raining;2
 18-30;Male;1-2yr;Raining;2
-31-50;Male;2-5yr;Normal;2
-31-50;Male;1-2yr;Normal;2
+31-50;Male;2-5yr;Normal;3
+31-50;Male;1-2yr;Normal;3
 Under 18;Male;5-10yr;Normal;1
 Over 51;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
@@ -7837,16 +7837,16 @@ Under 18;Male;Above 10yr;Normal;2
 18-30;Male;2-5yr;Cloudy;1
 18-30;Male;1-2yr;Raining;1
 Over 51;Male;5-10yr;Raining;1
-31-50;Male;5-10yr;Normal;2
-31-50;Male;Above 10yr;Normal;2
-18-30;Male;2-5yr;Normal;2
-18-30;Male;Above 10yr;Normal;2
+31-50;Male;5-10yr;Normal;3
+31-50;Male;Above 10yr;Normal;3
+18-30;Male;2-5yr;Normal;3
+18-30;Male;Above 10yr;Normal;3
 18-30;Male;2-5yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 Over 51;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-Over 51;Male;Above 10yr;Normal;2
+Over 51;Male;Above 10yr;Normal;3
 31-50;Male;Below 1yr;Normal;1
 Over 51;Male;5-10yr;Normal;1
 Over 51;Male;1-2yr;Normal;1
@@ -7855,7 +7855,7 @@ Over 51;Male;1-2yr;Normal;1
 Over 51;Male;1-2yr;Normal;2
 Over 51;Male;1-2yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
-18-30;Male;2-5yr;Normal;2
+18-30;Male;2-5yr;Normal;3
 Under 18;Male;1-2yr;Normal;2
 18-30;Male;5-10yr;Normal;2
 31-50;Male;Below 1yr;Normal;2
@@ -7946,7 +7946,7 @@ Over 51;Male;Above 10yr;Other;1
 Under 18;Male;5-10yr;Raining;2
 18-30;Male;2-5yr;Normal;1
 31-50;Male;2-5yr;Normal;1
-18-30;Male;Below 1yr;Raining;2
+18-30;Male;Below 1yr;Raining;3
 Under 18;Male;2-5yr;Cloudy;1
 31-50;Male;2-5yr;Cloudy;1
 18-30;Male;5-10yr;Normal;1
@@ -8042,7 +8042,7 @@ Under 18;Male;2-5yr;Normal;2
 Over 51;Male;Below 1yr;Other;1
 31-50;Male;Below 1yr;Other;1
 Over 51;Male;Below 1yr;Windy;1
-Over 51;Male;2-5yr;Normal;2
+Over 51;Male;2-5yr;Normal;3
 Over 51;Male;Above 10yr;Raining;2
 Under 18;Male;Above 10yr;Raining;2
 18-30;Male;2-5yr;Normal;1
@@ -8094,7 +8094,7 @@ Over 51;Male;Above 10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-Under 18;Male;5-10yr;Normal;2
+Under 18;Male;5-10yr;Normal;3
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Raining;1
@@ -8220,16 +8220,16 @@ Over 51;Male;2-5yr;Normal;1
 31-50;Male;1-2yr;Normal;2
 Over 51;Male;5-10yr;Normal;1
 31-50;Male;1-2yr;Normal;1
-31-50;Male;5-10yr;Normal;2
+31-50;Male;5-10yr;Normal;3
 Over 51;Male;5-10yr;Normal;1
 Over 51;Male;2-5yr;Normal;1
 18-30;Male;1-2yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
-31-50;Male;5-10yr;Raining;2
-18-30;Male;5-10yr;Raining;2
-31-50;Male;5-10yr;Raining;2
-Over 51;Male;5-10yr;Raining;2
+31-50;Male;5-10yr;Raining;3
+18-30;Male;5-10yr;Raining;3
+31-50;Male;5-10yr;Raining;3
+Over 51;Male;5-10yr;Raining;3
 Over 51;Male;2-5yr;Normal;1
 Over 51;Male;5-10yr;Normal;1
 Over 51;Female;Above 10yr;Normal;1
@@ -8400,7 +8400,7 @@ Over 51;Male;1-2yr;Normal;1
 31-50;Male;1-2yr;Windy;1
 18-30;Male;5-10yr;Raining;1
 18-30;Male;2-5yr;Raining;1
-18-30;Male;5-10yr;Normal;2
+18-30;Male;5-10yr;Normal;3
 Over 51;Male;Above 10yr;Raining;1
 31-50;Male;Above 10yr;Raining;1
 31-50;Male;2-5yr;Other;1
@@ -8425,10 +8425,10 @@ Under 18;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
 Under 18;Male;2-5yr;Normal;2
-Over 51;Male;2-5yr;Normal;2
-18-30;Male;Above 10yr;Normal;2
-31-50;Male;2-5yr;Normal;2
-Over 51;Male;1-2yr;Normal;2
+Over 51;Male;2-5yr;Normal;3
+18-30;Male;Above 10yr;Normal;3
+31-50;Male;2-5yr;Normal;3
+Over 51;Male;1-2yr;Normal;3
 Under 18;Male;1-2yr;Normal;2
 Over 51;Male;5-10yr;Normal;2
 31-50;Male;2-5yr;Normal;1
@@ -8450,10 +8450,10 @@ Over 51;Male;2-5yr;Normal;1
 31-50;Male;2-5yr;Other;1
 31-50;Male;No Licence;Normal;1
 31-50;Male;Above 10yr;Normal;1
-Under 18;Male;Above 10yr;Normal;2
-31-50;Male;5-10yr;Normal;2
-31-50;Male;2-5yr;Normal;2
-31-50;Male;2-5yr;Normal;2
+Under 18;Male;Above 10yr;Normal;3
+31-50;Male;5-10yr;Normal;3
+31-50;Male;2-5yr;Normal;3
+31-50;Male;2-5yr;Normal;3
 18-30;Male;Below 1yr;Raining;1
 18-30;Male;Above 10yr;Raining;1
 31-50;Male;Above 10yr;Normal;1
@@ -8772,8 +8772,8 @@ Under 18;Male;1-2yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;2-5yr;Normal;2
 31-50;Male;Below 1yr;Normal;2
-18-30;Female;5-10yr;Normal;2
-18-30;Male;5-10yr;Normal;2
+18-30;Female;5-10yr;Normal;3
+18-30;Male;5-10yr;Normal;3
 31-50;Male;2-5yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 Under 18;Male;5-10yr;Normal;1
@@ -9078,7 +9078,7 @@ Over 51;Male;Above 10yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;Below 1yr;Normal;1
-18-30;Male;2-5yr;Raining;2
+18-30;Male;2-5yr;Raining;3
 18-30;Male;2-5yr;Normal;2
 18-30;Male;Above 10yr;Normal;2
 Over 51;Male;2-5yr;Normal;2
@@ -9141,8 +9141,8 @@ Under 18;Male;1-2yr;Normal;1
 18-30;Male;No Licence;Normal;1
 31-50;Male;1-2yr;Normal;1
 Under 18;Male;5-10yr;Normal;1
-31-50;Male;1-2yr;Normal;2
-Under 18;Male;Above 10yr;Normal;2
+31-50;Male;1-2yr;Normal;3
+Under 18;Male;Above 10yr;Normal;3
 31-50;Male;1-2yr;Normal;1
 31-50;Male;1-2yr;Normal;1
 31-50;Male;2-5yr;Normal;2
@@ -9160,8 +9160,8 @@ Over 51;Male;Above 10yr;Raining;2
 18-30;Male;2-5yr;Raining;2
 18-30;Male;Above 10yr;Raining;2
 18-30;Male;5-10yr;Raining;2
-18-30;Male;Above 10yr;Normal;2
-18-30;Male;2-5yr;Normal;2
+18-30;Male;Above 10yr;Normal;3
+18-30;Male;2-5yr;Normal;3
 Over 51;Male;2-5yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;1-2yr;Normal;1
@@ -9239,13 +9239,13 @@ Over 51;Male;5-10yr;Normal;1
 18-30;Male;5-10yr;Raining;1
 18-30;Male;Above 10yr;Raining;1
 31-50;Male;1-2yr;Raining;1
-18-30;Male;2-5yr;Normal;2
-18-30;Male;1-2yr;Normal;2
-Over 51;Male;5-10yr;Normal;2
+18-30;Male;2-5yr;Normal;3
+18-30;Male;1-2yr;Normal;3
+Over 51;Male;5-10yr;Normal;3
 Over 51;Male;5-10yr;Normal;1
 31-50;Male;Above 10yr;Normal;1
 31-50;Male;2-5yr;Normal;1
-Under 18;Male;5-10yr;Normal;2
+Under 18;Male;5-10yr;Normal;3
 18-30;Male;5-10yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
@@ -9254,8 +9254,8 @@ Over 51;Female;Below 1yr;Normal;1
 31-50;Male;5-10yr;Normal;2
 18-30;Male;1-2yr;Normal;2
 31-50;Male;Above 10yr;Normal;1
-31-50;Male;2-5yr;Normal;2
-31-50;Male;1-2yr;Normal;2
+31-50;Male;2-5yr;Normal;3
+31-50;Male;1-2yr;Normal;3
 Over 51;Male;1-2yr;Normal;2
 18-30;Male;2-5yr;Normal;2
 18-30;Male;1-2yr;Normal;1
@@ -9344,7 +9344,7 @@ Over 51;Male;5-10yr;Normal;1
 31-50;Male;2-5yr;Raining;2
 18-30;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-31-50;Male;5-10yr;Raining;2
+31-50;Male;5-10yr;Raining;3
 18-30;Male;5-10yr;Cloudy;1
 18-30;Male;Above 10yr;Cloudy;1
 Over 51;Male;Below 1yr;Normal;1
@@ -9438,7 +9438,7 @@ Over 51;Male;2-5yr;Other;1
 31-50;Male;2-5yr;Other;1
 31-50;Male;Above 10yr;Windy;1
 Under 18;Male;1-2yr;Windy;1
-18-30;Male;5-10yr;Normal;2
+18-30;Male;5-10yr;Normal;3
 18-30;Male;2-5yr;Raining;2
 18-30;Male;2-5yr;Raining;2
 Under 18;Male;Above 10yr;Normal;1
@@ -9493,7 +9493,7 @@ Over 51;Male;Below 1yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Male;2-5yr;Normal;1
 18-30;Female;5-10yr;Normal;1
-18-30;Female;5-10yr;Normal;2
+18-30;Female;5-10yr;Normal;3
 Over 51;Female;Above 10yr;Normal;1
 Under 18;Male;5-10yr;Normal;1
 18-30;Male;1-2yr;Normal;1
@@ -9616,15 +9616,15 @@ Over 51;Male;2-5yr;Normal;1
 31-50;Male;5-10yr;Normal;2
 31-50;Male;2-5yr;Normal;1
 31-50;Male;5-10yr;Normal;1
-31-50;Male;Above 10yr;Normal;2
+31-50;Male;Above 10yr;Normal;3
 31-50;Male;5-10yr;Normal;1
 31-50;Male;5-10yr;Normal;1
 18-30;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;1-2yr;Normal;1
-31-50;Male;2-5yr;Raining;2
-Over 51;Male;1-2yr;Raining;2
-31-50;Male;5-10yr;Raining;2
+31-50;Male;2-5yr;Raining;3
+Over 51;Male;1-2yr;Raining;3
+31-50;Male;5-10yr;Raining;3
 18-30;Male;5-10yr;Normal;1
 18-30;Male;Above 10yr;Normal;1
 18-30;Male;2-5yr;Normal;1
