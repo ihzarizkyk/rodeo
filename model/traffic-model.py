@@ -20,10 +20,10 @@ X = data[["18-30", "31-50", "Over 51", "Under 18", "Male", "Female", "1-2yr", "2
 y = data[["severity"]]
 
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+X_train, X_test, y_train, y_test = train_test_split(X, y)
 
 from sklearn.tree import DecisionTreeClassifier
-model = DecisionTreeClassifier(class_weight="balanced")
+model = DecisionTreeClassifier(max_depth = 2, random_state = 0, class_weight="balanced")
 
 model.fit(X_train, y_train)
 
